@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.techacademy.eri.takashima.eritshoulderforat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondLayerOne" />
+        <activity android:name=".SecondLayerTwo" />
+        <activity android:name=".SecondLayerThree" />
+        <activity android:name=".ThirdLayerOne" />
+        <activity android:name=".ThirdLayerTwo" />
+        <activity android:name=".ThirdLayerThree" />
+        <activity android:name=".ResultOne" />
+        <activity android:name=".FourthLayerOne" />
+        <activity android:name=".ResultTwo" />
+        <activity android:name=".FourthLayerTwo" />
+        <activity android:name=".ResultThree" />
+        <activity android:name=".ResultFour" />
+        <activity android:name=".Doctor" />
+        <activity android:name=".ResultFive" />
+        <activity android:name=".FifthLayerOne" />
+        <activity android:name=".ResultSix"></activity>
+    </application>
+
+</manifest>
