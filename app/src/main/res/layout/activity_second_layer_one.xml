@@ -36,5 +36,14 @@
         android:layout_alignParentBottom="true"
         android:layout_alignEnd="@+id/question2" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/shoulder2"
+        android:layout_above="@+id/second_layer_one_yes"
+        android:layout_below="@+id/question2"
+        android:layout_alignParentEnd="true" />
+
 
 </RelativeLayout>

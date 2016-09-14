@@ -35,6 +35,15 @@
         android:layout_alignParentBottom="true"
         android:layout_alignEnd="@+id/question6" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/shoulder6"
+        android:layout_above="@+id/third_layer_two_yes"
+        android:layout_below="@+id/question6"
+        android:layout_alignParentEnd="true" />
+
 
 
 

@@ -35,5 +35,14 @@
         android:layout_alignParentBottom="true"
         android:layout_alignEnd="@+id/question7" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/shoulder7"
+        android:layout_above="@+id/third_layer_three_yes"
+        android:layout_below="@+id/question7"
+        android:layout_alignParentEnd="true" />
+
 
 </RelativeLayout>
