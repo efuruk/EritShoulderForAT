@@ -1,7 +1,9 @@
 package jp.techacademy.eri.takashima.eritshoulderforat;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.util.Log;
 import android.widget.ImageView;
@@ -19,12 +21,29 @@ public class SecondLayerOne extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second_layer_one);
 
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
+
         secondlayeroneyesbutton = (Button) findViewById(R.id.second_layer_one_yes);
         secondlayeroneyesbutton.setOnClickListener(this);
 
         secondlayeronenobutton = (Button) findViewById(R.id.second_layer_one_no);
         secondlayeronenobutton.setOnClickListener(this);
     }
+    @Override
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+
     @Override
     public void onClick(View view) {
         if(view.getId()==R.id.second_layer_one_yes) {

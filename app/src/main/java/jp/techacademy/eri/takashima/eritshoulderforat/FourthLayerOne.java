@@ -1,8 +1,10 @@
 package jp.techacademy.eri.takashima.eritshoulderforat;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.util.Log;
@@ -21,11 +23,25 @@ public class FourthLayerOne extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fourth_layer_one);
 
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
         fourthlayeroneyesbutton = (Button) findViewById(R.id.fourth_layer_one_yes);
         fourthlayeroneyesbutton.setOnClickListener(this);
 
         fourthlayeronenobutton = (Button) findViewById(R.id.fourth_layer_one_no);
         fourthlayeronenobutton.setOnClickListener(this);
+    }
+    @Override
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

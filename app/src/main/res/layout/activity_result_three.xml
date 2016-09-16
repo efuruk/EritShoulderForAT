@@ -13,7 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Scapular Anterior Tilt Syndrome"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:id="@+id/result3"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/scapularanteriortilt"/>
 
 </RelativeLayout>

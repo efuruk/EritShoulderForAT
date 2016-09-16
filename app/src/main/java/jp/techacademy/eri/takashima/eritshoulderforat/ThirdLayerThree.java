@@ -1,8 +1,10 @@
 package jp.techacademy.eri.takashima.eritshoulderforat;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.util.Log;
@@ -19,12 +21,27 @@ public class ThirdLayerThree extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third_layer_three);
 
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
 
         thirdlayerthreeyesbutton = (Button) findViewById(R.id.third_layer_three_yes);
         thirdlayerthreeyesbutton.setOnClickListener(this);
 
         thirdlayerthreenobutton = (Button) findViewById(R.id.third_layer_three_no);
         thirdlayerthreenobutton.setOnClickListener(this);
+    }
+
+    @Override
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
