@@ -7,25 +7,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="jp.techacademy.eri.takashima.eritshoulderforat.ResultTwo">
+    tools:context="jp.techacademy.eri.takashima.eritshoulderforat.RehabResultThreeFirst">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your shoulder blade is not rotating enough!"
-        android:textSize="30dp"
-        android:id="@+id/result2"/>
+        android:text="Let’s release your tight muscle under your pec muscle!"
+        android:id="@+id/textView"
+        android:textSize="30dp"/>
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/scapularinsufficientupwardr"
-        android:layout_below="@+id/result2" />
+        android:src="@drawable/pecminorrelease"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Go to Rehab!"
-        android:id="@+id/resulttwo"
+        android:text="More Rehab!"
+        android:id="@+id/resultthreefirst"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:textSize="30dp"/>

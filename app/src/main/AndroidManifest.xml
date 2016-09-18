@@ -2,7 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="jp.techacademy.eri.takashima.eritshoulderforat">
 
-    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="23" />
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -32,7 +38,17 @@
         <activity android:name=".Doctor" />
         <activity android:name=".ResultFive" />
         <activity android:name=".FifthLayerOne" />
-        <activity android:name=".ResultSix"></activity>
+        <activity android:name=".ResultSix" />
+        <activity android:name=".RehabResultOneFirst" />
+        <activity android:name=".RehabResultTwoFirst" />
+        <activity android:name=".RehabResultThreeFirst" />
+        <activity android:name=".RehabResultFourFirst" />
+        <activity android:name=".RehabResultFiveFirst" />
+        <activity android:name=".RehabResultOneSecond" />
+        <activity android:name=".RehabResultTwoSecond" />
+        <activity android:name=".RehabResultThreeSecond" />
+        <activity android:name=".RehabResultFourSecond" />
+        <activity android:name=".RehabResultFiveSecond"></activity>
     </application>
 
 </manifest>

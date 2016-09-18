@@ -7,18 +7,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="jp.techacademy.eri.takashima.eritshoulderforat.Doctor">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="You might need to get imaging such as MRI."
-        android:textSize="30dp"
-        android:id="@+id/doctor1"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/medicalprofessionals"/>
+    tools:context="jp.techacademy.eri.takashima.eritshoulderforat.RehabResultFiveSecond">
 
 </RelativeLayout>

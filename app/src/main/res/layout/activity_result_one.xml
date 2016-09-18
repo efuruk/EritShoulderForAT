@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Humeral Anterior Glide Syndrome"
+        android:text="Your arm bone (humerus) is shifting forward!"
         android:textSize="25dp"
         android:id="@+id/result1"/>
 
@@ -20,8 +20,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/humeralanteriorglide"
-        android:layout_below="@+id/result1"
+        android:layout_centerVertical="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Rehab!"
+        android:id="@+id/resultone"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"/>
 
 
 </RelativeLayout>

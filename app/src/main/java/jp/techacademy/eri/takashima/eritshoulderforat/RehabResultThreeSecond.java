@@ -1,28 +1,22 @@
 package jp.techacademy.eri.takashima.eritshoulderforat;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
-public class ResultTwo extends AppCompatActivity implements View.OnClickListener {
-
-    private Button resulttwobutton;
+public class RehabResultThreeSecond extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result_two);
+        setContentView(R.layout.activity_rehab_result_three_second);
+
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        resulttwobutton = (Button) findViewById(R.id.resulttwo);
-        resulttwobutton.setOnClickListener(this);
     }
     @Override
 
@@ -34,12 +28,5 @@ public class ResultTwo extends AppCompatActivity implements View.OnClickListener
         }
         return super.onOptionsItemSelected(item);
     }
-    @Override
-    public void onClick(View view) {
-        if(view.getId()==R.id.resulttwo) {
-            Intent intent = new Intent(this, RehabResultTwoFirst.class);
-            startActivity(intent);
-        }
     }
 
-}

@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Humeral Superior Glide Syndrome"
+        android:text="Your arm bone (humerus) is shifting up too much!"
         android:textSize="25dp"
         android:id="@+id/result4"/>
 
@@ -22,5 +22,14 @@
         android:src="@drawable/humeralsuperiorglide"
         android:layout_below="@+id/result4"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Rehab!"
+        android:id="@+id/resultfour"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"/>
 
 </RelativeLayout>

@@ -8,21 +8,22 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class ResultTwo extends AppCompatActivity implements View.OnClickListener {
+public class RehabResultFourFirst extends AppCompatActivity implements View.OnClickListener {
 
-    private Button resulttwobutton;
+    private Button resultfourfirstbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result_two);
+        setContentView(R.layout.activity_rehab_result_four_first);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        resulttwobutton = (Button) findViewById(R.id.resulttwo);
-        resulttwobutton.setOnClickListener(this);
+
+        resultfourfirstbutton = (Button) findViewById(R.id.resultfourfirst);
+        resultfourfirstbutton.setOnClickListener(this);
     }
     @Override
 
@@ -36,10 +37,9 @@ public class ResultTwo extends AppCompatActivity implements View.OnClickListener
     }
     @Override
     public void onClick(View view) {
-        if(view.getId()==R.id.resulttwo) {
-            Intent intent = new Intent(this, RehabResultTwoFirst.class);
+        if(view.getId()==R.id.resultfourfirst) {
+            Intent intent = new Intent(this, RehabResultFourSecond.class);
             startActivity(intent);
         }
     }
-
 }

@@ -12,8 +12,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Does assisted scapular posterior tilt decrease your pain?"
-        android:textSize="30dp"
+        android:text="What if somebody tilts your shoulder blade backwardly while rotating out, does it decrease your pain?"
+        android:textSize="25dp"
         android:id="@+id/question7" />
 
     <Button
@@ -43,6 +43,8 @@
         android:layout_above="@+id/third_layer_three_yes"
         android:layout_below="@+id/question7"
         android:layout_alignParentEnd="true" />
+
+
 
 
 </RelativeLayout>

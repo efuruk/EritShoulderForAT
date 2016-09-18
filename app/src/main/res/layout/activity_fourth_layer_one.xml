@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Does assisted humeral inferior glide decrease your pain?"
+        android:text="What if somebody pulls your arm while raising it, does it decrease your pain?"
         android:textSize="30dp"
         android:id="@+id/question8" />
 

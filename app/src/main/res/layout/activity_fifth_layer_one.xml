@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Does AC joint compression test increase your pain?"
+        android:text="Does AC joint compression increase your pain?"
         android:textSize="30dp"
         android:id="@+id/question10" />
 

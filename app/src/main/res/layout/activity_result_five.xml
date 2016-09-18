@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hypomobile Clavicular Syndrome"
+        android:text="Your collarbone is not moving well!"
         android:textSize="25dp"
         android:id="@+id/result5"/>
 
@@ -20,4 +20,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/hypomobileclavicular"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Rehab!"
+        android:id="@+id/resultfive"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"/>
 </RelativeLayout>

@@ -12,8 +12,8 @@
    <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Does assisted scapular upward rotation decrease your pain?"
-    android:textSize="30dp"
+    android:text="What if somebody rotates your shoulder blade outwardly while side raising, does it decrease your pain?"
+    android:textSize="24dp"
     android:id="@+id/question6" />
 
     <Button
