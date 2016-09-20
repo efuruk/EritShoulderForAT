@@ -9,12 +9,17 @@ import android.view.View;
 import android.content.Intent;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button frontbutton;
     private Button topbutton;
     private Button backbutton;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +37,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         backbutton = (Button) findViewById(R.id.backbutton);
         backbutton.setOnClickListener(this);
 
+
+
+
+
     }
 
     @Override
@@ -47,4 +56,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }
     }
+
+
 }

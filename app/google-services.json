@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1094211757213",
+    "firebase_url": "https://admob-app-id-2652682678.firebaseio.com",
+    "project_id": "admob-app-id-2652682678",
+    "storage_bucket": "admob-app-id-2652682678.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094211757213:android:38b65173087ee78d",
+        "android_client_info": {
+          "package_name": "jp.techacademy.eri.takashima.eritshoulderforat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094211757213-r020a9b04gf759mnuq5tjmqd8bkp5erv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCri5tp6ftm-_kQtuuAa9uC3mvJmDdQHJI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

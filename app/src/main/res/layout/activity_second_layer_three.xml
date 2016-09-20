@@ -45,8 +45,4 @@
         android:layout_below="@+id/question4"
         android:layout_alignParentEnd="true" />
 
-
-
-
-
     </RelativeLayout>
